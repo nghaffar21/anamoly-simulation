@@ -1,0 +1,26 @@
+name: myenv2
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - pytorch
+  - torchvision
+  - pytorch-cuda
+  - scikit-learn
+  - torchaudio
+  - pip
+  - tqdm
+  - matplotlib
+  - seaborn
+  - pandas
+  - python=3.12
+  - numpy
+  - pyyaml
+  - torchmetrics
+  - mlflow
+  - optuna
+  - pytorch-lightning
+  - tensorboard
+  - onnx
+  - onnxruntime
+prefix: /home/nima/anaconda3/envs/myenv2
